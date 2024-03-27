@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Care - Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 100%;
+            margin: 20px auto;
+            max-width: 1200px;
+            align-items: center;
+        }
+
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 10px 0;
+            height: 40px;
+            display:flex;
+            align-items: center;
+            
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+        }
+
+        .navbar ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        .navbar ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        .navbar ul li a:hover {
+            color: #ccc;
+        }
+
+        .navbar img {
+            width: 150px;
+        }
+
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .service {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .service h2 {
+            color: #0b0b0b;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .service img {
+            width: 100%;
+            max-height: 700px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .service p {
+            margin-bottom: 15px;
+        }
+
+        .add-to-cart {
+            background-color: #000;
+            color: #f0e4e4;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.1s ease;
+        }
+
+        .add-to-cart:hover {
+            background-color: #0707eb98;
+        }
+
+        .logo img {
+            height: 700px;
+            /* Adjust as needed */
+        }
+
+        .partition {
+            display: flex;
+            margin: 20px;
+
+        }
+
+        .partition1 {
+            width: 150%;
+            margin: 0 auto;
+            justify-content: left;
+            align-items: left;
+            padding: 20px 0;
+        }
+
+        .partition2 {
+            width: 1fr;
+            margin: 0 auto;
+            justify-content: right;
+            align-items: right;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div><img src="D:\UrbanCare\LOGO\URBAN CARE-logos_white.png" alt="Logo"></div>
+                <div>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Cart</a></li>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Signup</a></li>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="partition">
+            <div class="partition1">
+                <h1>
+                    <center>Laundry</center>
+                </h1>
+            </div>
+
+            <div class="partition2">
+                <div class="services">
+                    <div class="service">
+                        <img src="salon.jpg" alt="Salon Service">
+                        <h2>Salon</h2>
+                        <p>Elevate your look with our expert salon services. From trendy haircuts to luxurious spa
+                            treatments, our skilled stylists and aestheticians are dedicated to helping you look and
+                            feel
+                            your best..</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="service">
+                        <img src="plumbing.jpg" alt="Plumbing Service">
+                        <h2>Plumbing</h2>
+                        <p>Keep your home running smoothly with our reliable plumbing service .</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="service">
+                        <img src="electrician.jpg" alt="Electrician Service">
+                        <h2>Electrician</h2>
+                        <p>Our licensed technicians are equipped to handle everything from minor repairs to complete
+                            installations, ensuring the safety and efficiency of your home's systems..</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="service">
+                        <img src="laundry.jpg" alt="Laundry Service">
+                        <h2>Laundry</h2>
+                        <p>Say goodbye to laundry day hassles with our convenient laundry services. We'll take care of
+                            washing, drying, and folding your clothes, so you can enjoy more free time and fresher,
+                            cleaner
+                            garments..</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+</body>
+
+</html>
